@@ -190,7 +190,7 @@ namespace TrabajoIntegradorRDC {
             for (int n = 0; n < pTabla.GetLength(0); n++) {
                 Console.WriteLine("{0}-> {1}\t{2}\t{3}", n, pTabla[n, 0], pTabla[n, 1], pTabla[n, 2]);
             }
-            Console.WriteLine("------");
+            Console.WriteLine("-------");
         }
     }
 }
