@@ -41,49 +41,5 @@ namespace TrabajoIntegradorRDC {
         public int ObtenAdyacencia(int pFila, int pColumna) {
             return mAdyacencia[pFila, pColumna];
         }
-        /*
-        public void CalcularIndegree() {
-            for (int n = 0; n < nodos; n++) {
-                for (int m = 0; m < nodos; m++) {
-                    if (mAdyacencia[m, n] == 1) {
-                        indegree[n]++;
-                    }
-                }
-            }
-        }
-        
-        public void MostrarIndegree() {
-            Console.ForegroundColor = ConsoleColor.White;
-            for (int n = 0; n < nodos; n++) {
-                Console.WriteLine("Nodo: {0}, {1}", n , indegree[n]);
-            }
-        }
-
-        public int EncuentraI0() {
-            bool encontrado = false;
-            int n = 0;
-            for (n = 0; n < nodos; n++) {
-                if (indegree[n] == 0) {
-                    encontrado = true;
-                    break;
-                }
-            }
-            if (encontrado) {
-                return n;
-            } else {
-                return -1; // Indica que no se encontró
-            }
-        }
-
-        public void DecrementaIndigree(int pNodo) {
-            indegree[pNodo] = -1;
-            for (int n = 0; n < nodos; n++) {
-                if (mAdyacencia[pNodo, n] == 1) {
-                    indegree[n]--;
-                }
-            }
-        }
-        */
-
     }
 }
