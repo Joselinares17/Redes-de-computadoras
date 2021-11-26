@@ -115,6 +115,7 @@ namespace TrabajoIntegradorRDC {
             MostrarTabla(tabla);
 
             //algoritmo Dijkstra
+            actual = inicio;
 
             do {
                 // Marcar nodo como visitado
