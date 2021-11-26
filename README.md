@@ -1,7 +1,7 @@
 # Redes-de-computadoras
 El código está en C# y desarrollado en Visual Studio 2022 preview
 
-Está configurado para la complejidad alta, para ejecutar el código debe tener en cuenta 2 cosas:
+Está configurado para ejecutar la topología en complejidad alta, para iniciar el código debe tener en cuenta 2 cosas:
 - la cantidad de nodos, este cámbielo cuando vaya a probar otro modelo.
   la variable se llama "cantNodos".
 
